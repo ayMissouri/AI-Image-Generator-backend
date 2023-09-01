@@ -20,7 +20,7 @@ router.route("/").get(async (req, res) => {
 
     res.status(200).json({ success: true, data: posts });
   } catch (error) {}
-  res.status(200).json({ success: false, message: error });
+  res.status(500);
 });
 
 router.route("/").post(async (req, res) => {
