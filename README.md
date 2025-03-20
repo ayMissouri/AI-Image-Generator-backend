@@ -1,7 +1,5 @@
 # AI Image Generation Backend
 
-You can view a live preview of this project [HERE](https://ai.amissouri.com)
-
 ## Features
 
 - Send request for image generation with prompt using OpenAi
